@@ -44,7 +44,7 @@ fi
 
 echo -e "${YELLOW}📥 Step 7: Clone and install repository${NC}"
 cd $APP_DIR
-sudo -u $NODE_USER git clone https://github.com/MahdiTT96/TaghdisiLabs.git . || sudo -u $NODE_USER git pull
+sudo -u $NODE_USER git clone https://github.com/M-Taghdisi/TaghdisiLabs.git . || sudo -u $NODE_USER git pull
 sudo -u $NODE_USER npm ci
 
 echo -e "${YELLOW}🏗️  Step 8: Build Next.js app${NC}"
